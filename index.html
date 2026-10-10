@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Match Challenge</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="game">
+    <h1>Memory Match Challenge</h1>
+    <p>Flip the cards and find all the matching pairs!</p>
+
+    <div class="stats">
+      <span>Moves: <strong id="moves">0</strong></span>
+      <span>Time: <strong id="time">0</strong>s</span>
+      <span>Matches: <strong id="matches">0</strong>/8</span>
+    </div>
+
+    <div id="board" class="board"></div>
+
+    <p id="message" aria-live="polite"></p>
+    <button id="restart">Restart Game</button>
+  </main>
+</body>
+</html>
